@@ -14,7 +14,7 @@ return (
 return (
 <div>
 <p>User unauthenticated</p>
-<button onClick={() => signIn("google")}>Login with Google</button>
+<button onClick={() => signIn("google")}>Login with Googles</button>
 </div>
  );
 }
