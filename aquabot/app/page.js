@@ -1,8 +1,12 @@
-import Image from "next/image";
+import HeroSection from "@/components/hero";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
-    </div>
+    <div className="mt-40">
+
+   <HeroSection />
+    <Button variant="destructive">Click me</Button>
+     </div>
   );
 }
